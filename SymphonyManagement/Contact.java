@@ -7,11 +7,11 @@ package SymphonyManagement;
 
 public class Contact {
 
-    private String phone;
+    private Phone phone;
     private String email;
 
     void setPhone(String phone) {
-        this.phone = phone;
+        phone.setPhone(phone);
     }
 
     void setEmail(String email) {
