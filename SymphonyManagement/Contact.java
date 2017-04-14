@@ -9,6 +9,11 @@ public class Contact {
 
     private Phone phone;
     private String email;
+    
+    Contact() {
+    	phone = new Phone();
+    	email = "";
+    }
 
     void setPhone(String phone) {
         phone.setPhone(phone);
